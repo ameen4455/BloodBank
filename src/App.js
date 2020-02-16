@@ -1,7 +1,7 @@
 import React from "react";
 import Context from "./context/Context";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Chart from './components/chart/Chart';
+import Home from './pages/Home/home';
 
 function App() {
   return (
@@ -9,10 +9,9 @@ function App() {
       <Router>
         <Switch>
           <Route path="/chart">
-            <Chart />
           </Route>
           <Route path='/'>
-            <button className="btn btn-dark" >assdsdaf</button>
+              <Home/>
           </Route>
         </Switch>
       </Router>

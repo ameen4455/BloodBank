@@ -1,2 +1,14 @@
 @import '~bootstrap/scss/bootstrap.scss';
+body{
+  background-color: #FFFBFC;
+}
 
+.h2
+{
+  color: #263238;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
