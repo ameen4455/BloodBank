@@ -1,0 +1,27 @@
+.listTitle{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  background-color: #e57373;
+  color: #FFFBFC;
+}
+
+
+
+.listTableHead div {
+  font-weight: 500;
+  Border: #b71c1c solid 1px;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+
+
+.listTable > div {
+  Border: #b71c1c solid 1px;
+  border-top: none;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: auto;
+}
