@@ -1,35 +1,27 @@
 .cardBod{
-  display: flex;
-  flex-direction: row;
   border: #f44336 solid 1px;
   border-radius: 25px;
-  margin-bottom: 40px;
 }
 
 .cardContainer{
-  margin-top: 50px;
 }
 
 .cardVal{
-  color: #FFFBFC;
-  margin: auto;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #e57373;
-  border-radius: 100px;
-  width: 2em;
   text-align: center;
-  height: 2em;
 }
 
-.cardVal p{
-  margin-top: 0.2em;
+.cardVal div{
+  width: 2em ;
+  height: 2em;
+  color: #FFFBFC;
+  background-color: #e57373;
+  border-radius: 50%;
 }
 
 .cardInfo{
-  margin: 10px;
 }
 
+.poc,
 .cardDoner,
 .cardCollegeName,
 .cardAddress{
@@ -38,4 +30,18 @@
 
 .cardAddress{
   font-weight: 500;
+}
+
+.font-weight-medium{
+  font-weight: 500;
+}
+
+.poc-body::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top:-2px;
+  background-color: #b71c1c;
+
 }
